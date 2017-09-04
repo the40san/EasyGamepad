@@ -11,16 +11,16 @@ To get button/stick state, write your code like this.
 
 ```csharp
 // To get button down/up state
-EasyGamepad.GetButtonState(GamePad.Button.A);
+Gamepad.GetButtonState(GamePad.Button.A);
 
 // To get button up state (1 frame)
-EasyGamepad.GetButtonUp(GamePad.Button.A);
+Gamepad.GetButtonUp(GamePad.Button.A);
 
 // To get button down state (1 frame)
-EasyGamepad.GetButtonDown(GamePad.Button.A);
+Gamepad.GetButtonDown(GamePad.Button.A);
 
 // To get Axis State
-EasyGamepad.GetAxis(GamePad.Stick.LH);
+Gamepad.GetAxis(GamePad.Stick.LH);
 
 // To check player is using controller or keyboard(property)
 EasyGamepad.Switcher.IsUsingController
